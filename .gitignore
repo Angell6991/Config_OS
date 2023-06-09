@@ -1,0 +1,4 @@
+# dentro de este archivo se ponen los directorios a ignorar
+
+gnuplot/datos.dat
+gnuplot/fit.log

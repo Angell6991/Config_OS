@@ -1,0 +1,28 @@
+Descargar la fuente:
+fonts nerds--inconsolata italic
+CrackMan
+
+Las rutas de italacion:
+
+zsh     : ~/
+starship.toml : ~/.config/  # una vez puesto el archivo en la ruta, ir a la paguina de starship para consultar la instalacion  via curl
+nvim    : ~/.config/
+zathura : ~/.config/
+sxhkd   : ~/-config/   #el demonio de los atajos de teclado :v#
+dmenu   : ~/config/    #para ver los cambios del dmenu ejecutar: sudo make clean install en la ruta del la carpeta en el .config
+bspwm   : ~/.config/
+polybar : ~/.config/
+neofetch : ~/.config/ 
+
+Instalacion del picom blur y redondeo de bordes:
+instalar por yay
+
+yay -S picom-tryone-git
+
+poner la carpeta de picom en la ruta : ~/.config/ 
+
+Y ejecutar el comando:
+pkill picom 
+picom --experimental-backends -b
+
+
