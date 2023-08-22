@@ -106,6 +106,10 @@ source $ZSH/oh-my-zsh.sh
 alias nv="nvim"
 pdf(){nohup zathura $1 &}
 alias suspend="systemctl suspend"
+alias py="python"
+
+# informacion bateria istalar: sudo pacman -S tlp
+# informacion bateria: $ sudo tlp-stat -b
 
 #Iniciar_Starship
 eval "$(starship init zsh)"
