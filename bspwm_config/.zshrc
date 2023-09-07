@@ -104,7 +104,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #alias icat="kitty +kitten icat" 
 alias nv="nvim"
-pdf(){nohup zathura $1 &}
+alias icat="kitty +icat"
 alias suspend="systemctl suspend"
 alias py="python"
 
@@ -113,6 +113,5 @@ alias py="python"
 
 #Iniciar_Starship
 eval "$(starship init zsh)"
-
 
 
