@@ -1,9 +1,6 @@
-# format = """
-# [ {󰯉 } ](bg:#000000 fg:#FFFFFF)\ 
-
 format = """
-[{󰯉 } ](fg:#00CCDE)\
-
+[󱄛 ](fg:#ff44a0)\
+[  ](fg:#00CCDE)\
 
 $username\
 $hostname\

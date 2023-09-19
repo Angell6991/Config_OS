@@ -3,20 +3,23 @@
 pkill sxhkd
 sxhkd &
 
+#--wallpaper_aleatorio--#
+/home/angell/Imágenes/.wallpaper/random.sh
+
 setxkbmap latam
 xrandr -s 1366x768  -r 60.00
 
 pgrep -x sxhkd > /dev/null || sxhkd &
-$HOME/.config/polybar/launch.sh
 
 nitrogen --restore &
 picom -f &
+/home/angell/.eww/target/release/eww daemon &
 
 bspc rule -a Zathura state=tiled
 
 bspc monitor -d I II III IV V IV 
 
-bspc config border_width               1
+bspc config border_width               2
 bspc config window_gap                 12
 bspc config focused_border_color      '#61ffaf'
 bspc config normal_border_color       '#000000'
@@ -40,8 +43,3 @@ bspc config pointer_follows_focus     false
 bspc config pointer_follows_monitor   true
 
 
-bspc rule -a Gimp desktop='V' state=floating follow=on
-bspc rule -a Chromium desktop='^2'
-bspc rule -a mplayer2 state=floating
-bspc rule -a Kupfer.py focus=on
-bspc rule -a Screenkey manage=off

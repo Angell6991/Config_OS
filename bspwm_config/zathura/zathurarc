@@ -17,7 +17,7 @@ set guioptions ""
 # zathurarc-dark
 
 set font "inconsolata 15"
-set default-bg "#2d2d2d" #00
+set default-bg "#0F0F0F" #00
 set default-fg "#F7F7F6" #01
 
 set statusbar-fg "#B0B0B0" #04
@@ -45,8 +45,8 @@ set notification-bg "#90A959" #0B
 set notification-fg "#151515" #00
 
 set recolor "true"
-set recolor-lightcolor "#000000" #00
-set recolor-darkcolor "#E0E0E0" #06
+set recolor-lightcolor "#1D1D1D" #00
+set recolor-darkcolor "#FFFFFF" #06
 #set recolor-reverse-video "true"
 set recolor-keephue "true"
 

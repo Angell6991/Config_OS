@@ -71,9 +71,11 @@ ZSH_THEME="intheloop"  #(jaischeema,half-life,darkblood,sorin,intheloop,nicoulaj
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git
-	fast-syntax-highlighting
+	# fast-syntax-highlighting
 	zsh-autosuggestions
 	web-search)
+
+source ~/.path/to/fsh/fast-syntax-highlighting.plugin.zsh
 
 source $ZSH/oh-my-zsh.sh
 
@@ -105,8 +107,11 @@ source $ZSH/oh-my-zsh.sh
 #alias icat="kitty +kitten icat" 
 alias nv="nvim"
 alias icat="kitty +icat"
-alias suspend="systemctl suspend"
+alias suspend="sudo systemctl suspend"
+alias inf_battery="sudo tlp-stat -b"
 alias py="python"
+alias buscar="sudo find / -name"
+alias neofetch="neofetch --backend kitty --source /home/angell/Imágenes/.wallpaper/hello-my-fascination-with-nature-and-the-aesthetics-of-v0-6gaubmc5c7ea1.jpg"
 
 # informacion bateria istalar: sudo pacman -S tlp
 # informacion bateria: $ sudo tlp-stat -b
@@ -114,4 +119,7 @@ alias py="python"
 #Iniciar_Starship
 eval "$(starship init zsh)"
 
+export PATH=$PATH:/home/angell/.local/bin
+export PATH=$PATH:/home/angell/.programs
+export PATH=$PATH:/home/angell/.eww/target/release
 

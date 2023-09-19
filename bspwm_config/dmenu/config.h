@@ -8,15 +8,15 @@ static int min_width = 500;                    /* minimum width when centered */
 static const char *fonts[] = {
 	"inconsolata:size=15"
 };
-static const char *prompt      = ">";      /* -p  option; prompt to the left of input field */
+static const char *prompt      = "❯";      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
-	[SchemeNorm] = { "#61ffaf", "#000000" },
-	[SchemeSel] = { "#000000", "#61ffaf" },
+	[SchemeNorm] = { "#b2b2b2", "#1D1D1D" },
+	[SchemeSel] = { "#1D1D1D", "#b2b2b2" },
 	[SchemeOut] = { "#00ffff", "#00ffff" },
 };
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
-static unsigned int lines      = 10;
+static unsigned int lines      = 8;
 
 /*
  * Characters not considered part of a word while deleting words
