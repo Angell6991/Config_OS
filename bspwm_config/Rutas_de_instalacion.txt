@@ -14,7 +14,7 @@ bspwm   : ~/.config/
 polybar : ~/.config/
 neofetch : ~/.config/ 
 .wallpaper : mover hasta : ~/Imágenes/
-.jupyter : mover hasta : ~/
+cambiar nombre de jupyter a .jupyter y mover hasta : ~/
 
 Instalacion del picom blur y redondeo de bordes:
 instalar por yay
